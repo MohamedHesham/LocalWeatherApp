@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#header {
+  margin-bottom: 10%;
+  font-weight: 400;
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: purple;
+  font-size: 25px;
+}
+a:hover {
+  color: white;
+}
+
+#location, #degree {
+  font-size: 25px;
+}
+
+footer {
+  /*border: 1px solid red;*/
+  /*margin-top: 17%;*/
+  /*padding: 1%;*/
+  position: absolute;
+  bottom: 5%;
+  left: 90%;
+}
+.red {
+  color: red;
+}
