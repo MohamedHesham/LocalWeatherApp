@@ -7,7 +7,7 @@ function getWeather(lat, long){
     success: function(data){
       $("#degree").text(data.main.temp);
       $("#degree").append("<a href='#' id='c'> \t\tC</a>");
-      $(".icon").html('<img src= '+data.weather[0].icon+' alt="Weather icon" width="75px" height="75px">');
+      $(".icon").html('<img src= '+data.weather[0].icon+' alt="Weather icon" width="50px" height="50px">');
       $("#location").text(data.name + ", " + data.sys.country);
     }
   });
